@@ -1,0 +1,124 @@
+# Site
+repository: 
+favicon: images/image.png
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Castillejo, Julius
+title: Amateur web developer, hobbyist 
+email: julussan123@gmail.com
+website: www.github.com/sproogen/resume-theme
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: just_tsk_
+github_username:  2tsk2
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: just.tsk.c
+linkedin_username: jcasti
+# xing_username: jekyll
+# pinterest_username: jekyll
+youtube_username: tsk
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: itsgoingto.be
+  icon: fas fa-globe
+  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/image.png
+about_content: | # this will include new lines to allow paragraphs
+ Hi, my name is Julius, (usually refered to as "tsk" in most online communities). I am an amateur web developer with 
+ 7 years of experience in the field of web development.
+
+  I am most skilled in: <mark>CSS</mark> and <mark>wasting my time</mark>
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: My personal repository
+        link: https://github.com/2Tsk2
+        # link_text: Project Website
+        #additional_links:
+          #- title:  sproogen/modern-resume-theme
+           # icon: fab fa-github
+            #url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          A collection of things ive worked on the past year
+        description: | # this will include new lines to allow paragraphs
+          I started this account as a repository for my work and so that i can get some experience with the git system
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Comissions
+        link: (undisclosed)
+        # link_text: boringcompany.com
+        sub_title: Web developer
+        caption: present
+        quote: >
+          literaly just me making webpages
+        description: | # this will include new lines to allow paragraphs
+            I make websites with ok-ish UX and simplicity in mind
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Self taught
+        caption: 2012 - present
+        sub_title: 
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+         I am a self taught web developer although ive finished several online courses with ease.
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - gaming
+      - sleeping
+      - doing random things that interest me
+      - sleeping
+      idk what to put here so enjoy an image of trees
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
