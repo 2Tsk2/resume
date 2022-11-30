@@ -81,8 +81,7 @@ content:
         # link_text: boringcompany.com
         sub_title: Web developer
         caption: present
-        quote: >
-          literaly just me making webpages
+        quote: > literaly just me making webpages
         description: | # this will include new lines to allow paragraphs
             I make websites with ok-ish UX and simplicity in mind
 
