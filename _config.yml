@@ -82,9 +82,11 @@ content:
         sub_title: Web developer
         caption: present
         quote: >
-         idk what to put here in all honesty so enjoy this piece of text that i put in place 
+         I make the webpages you see everyday and you probably dont even know that i do.
         description: | # this will include new lines to allow paragraphs
-            I make websites with ok-ish UX and simplicity in mind
+            I make websites with ok-ish UX and simplicity in mind, sometimes i do experiment with stuff like extremely
+            hard to do css (3d models using css, etc) and sometimes i just like to conform to what the client asks me to do
+            this isnt a job that most 17 year olds get but its a fun one for sure.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
